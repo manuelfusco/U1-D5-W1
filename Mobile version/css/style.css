@@ -28,7 +28,6 @@ header {
 nav {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-  text-align: center;
 }
 h1 {
   color: #25a2c3;
@@ -43,8 +42,11 @@ div.nav-element {
   margin: 2px;
 }
 button {
+  font-weight: bold;
+  border: none;
+  border-radius: 2.5%;
   background-color: #f04c2f;
-  color: #c8e7f0;
+  color: white;
   margin: 3px;
   padding: 15px 50px;
   text-transform: uppercase;
@@ -98,6 +100,7 @@ ul {
 }
 a {
   color: white;
+  font-weight: normal;
 }
 #footer-element {
   border-bottom: 0.01px solid #eaeaea;
@@ -117,4 +120,7 @@ a {
   border: solid 0.01px #eaeaea;
   border-radius: 1%;
   margin: 50px 22px;
+}
+#location {
+  text-decoration: none;
 }
